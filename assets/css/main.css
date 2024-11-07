@@ -2049,6 +2049,9 @@ section,
   .contact .info-box h3 {
     font-size: 1.75rem;
   }
+  .faq .faq-title {
+    font-size: 1.5rem;
+  }
 }
 
 .contact .info-box p {
