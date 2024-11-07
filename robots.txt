@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://pradeepkumarnirmal.github.io/hireshopifydevelopersindia.github.io/sitemap.xml
