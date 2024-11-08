@@ -3,7 +3,7 @@
 
 @media (max-width: 992px) {
 .hero {padding-top: 100px;}    
-.hero-image-inner {margin-bottom: 0px; margin-top: -50px;}
+.hero-image-inner {margin-bottom: 0px; margin-top: 10px;}
 .customers-badge-inner {margin-right: 50px;}
 .margbotmob {margin-bottom: 5px;}
 .portfoliobotmob {margin-bottom: 20px;}
