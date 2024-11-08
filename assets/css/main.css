@@ -787,7 +787,7 @@ section,
   background-color: var(--accent-color);
   border-color: var(--accent-color);
   color: var(--contrast-color);
-  padding: 0.75rem 2.5rem;
+  padding: 0.75rem 1.5rem;
   border-radius: 50px;
   font-weight: 500;
   transition: all 0.3s ease;
@@ -796,6 +796,21 @@ section,
 .hero .btn-primary:hover {
   background-color: color-mix(in srgb, var(--accent-color), black 20%);
   border-color: color-mix(in srgb, var(--accent-color), black 20%);
+}
+
+.hero .btn-success {
+  background-color: #198754;
+  border-color: #198754;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 50px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.hero .btn-success:hover {
+  background-color: #0d6b3f;
+  border-color: #0d6b3f;
 }
 
 .hero .btn-link {
