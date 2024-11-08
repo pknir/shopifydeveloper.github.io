@@ -1,4 +1,4 @@
-Sitemap: https://pradeepkumarnirmal.github.io/hireshopifydevelopersindia.github.io/sitemap.xml
+Sitemap: https://pknir.github.io/shopifydeveloper.github.io/sitemap.xml
 
 User-agent: *
 Disallow:
