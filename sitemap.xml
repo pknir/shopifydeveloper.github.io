@@ -9,69 +9,17 @@
 
 <url>
   <loc>https://pradeepkumarnirmal.github.io/hireshopifydevelopersindia.github.io/</loc>
-    <lastmod>2024-11-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-</url>
-<url>
-  <loc>https://pradeepkumarnirmal.github.io/hireshopifydevelopersindia.github.io/about.html</loc>
-    <lastmod>2024-11-01</lastmod> 
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://pradeepkumarnirmal.github.io/hireshopifydevelopersindia.github.io/contact.html</loc>
-    <lastmod>2024-11-01</lastmod> 
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-</url>
-
-
-</urlset>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://pradeepkumarnirmal.github.io/hireshopifydevelopersindia.github.io/</loc>
-  <lastmod>2024-11-07T14:15:24+00:00</lastmod>
+  <lastmod>2024-11-08T06:03:44+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://pradeepkumarnirmal.github.io/hireshopifydevelopersindia.github.io/index.html</loc>
-  <lastmod>2024-11-07T14:15:24+00:00</lastmod>
+  <loc>https://pradeepkumarnirmal.github.io/hireshopifydevelopersindia.github.io/about.html</loc>
+  <lastmod>2024-11-08T06:03:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pradeepkumarnirmal.github.io/hireshopifydevelopersindia.github.io/contact.html</loc>
+  <lastmod>2024-11-08T06:03:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
