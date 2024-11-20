@@ -1,6 +1,8 @@
 .hero-image-inner {margin-bottom: 110px;}
 .customers-badge-inner {margin-right: 40px;}
 .service-details ul li {list-style: circle !important; display: list-item; margin-left: 20px;}
+.portfoliobotmob {margin-bottom: 20px;}
+.portfoliobotmob img {border: 2px #4e9502 solid;}
 /*======ourprice=======*/
 .ourprice {
   background-color: yellow;
@@ -16,6 +18,7 @@
 .hero-image-inner {margin-bottom: 0px; margin-top: 10px;}
 .customers-badge-inner {margin-right: 50px;}
 .margbotmob {margin-bottom: 5px;}
+.clients .section-title {padding-bottom: 10px;}
 .portfoliobotmob {margin-bottom: 20px;}
 
   }
