@@ -16,6 +16,15 @@
 @-webkit-keyframes blink { 50% { background-color: rgb(0, 0, 0); }}
       @keyframes blink { 50% { background-color: rgb(0, 0, 0); }}
 /*======ourprice=======*/
+.offer-faq .ourprice {font-size: 15px; padding: 5px;}
+.offer-faq a {
+  border: 1px #4e9502 solid;
+    padding: 2px 10px;
+    background: #4e9502;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 20px;
+}
 
 .pricing-card-title {font-size: 1.7rem;}
 th {font-weight: 400;}
@@ -29,6 +38,7 @@ th {font-weight: 400;}
 .ourprice  {font-size: 13px; padding: 10px 5px;}
 .customers-badge-inner {margin-right: 50px;}
 .margbotmob {margin-bottom: 5px; font-size: 14px;}
+.packages-section {margin-top: -130px;}
 .clients .section-title {padding-bottom: 10px;}
 .portfoliobotmob {margin-bottom: 20px;}
 .footer-links ul li {position: relative; display: inline-flex !important; margin-right: 20px;}
