@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Offers</title>  
+  <style>
+    .ourprice {
+      background-color: #028700;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #fff;
+      font-size: 20px;
+      padding: 7px 15px;
+      -webkit-animation: blink 800ms infinite;
+              animation: blink 800ms infinite;
+    }
+    @-webkit-keyframes blink { 50% { background-color: rgb(0, 0, 0); }}
+    @keyframes blink { 50% { background-color: rgb(0, 0, 0); }}
+    .ourprice img {margin-top: -30px;}
+    .offer-row {width: 100%; display: flex; flex-wrap: wrap;}
+    .offer-coll-1 {width: 25%;}
+    .offer-coll-2 {width: 75%;}
+    .offer-text {font-size: 36px; text-align: center;}
+    .offer-text2 {font-size: 18px; text-align: center;}
+    .offer-text3 {font-size: 12px; text-align: center;}
+    a {text-decoration: none;}
+    .offer-button {
+      background-color: #fe1865;
+    width: 120px;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
+    margin-top: 10px;
+    }
+    @media screen and (max-device-width:640px), screen and (max-width:640px) {
+      .offer-coll-1 {width: 35%;}
+      .offer-coll-2 {width: 65%;}
+      .ourprice img {margin-top: -20px; margin-left: -20px; width: 120%;}
+      .offer-text {font-size: 24px;}
+      .offer-text2 {font-size: 14px;}
+      .offer-text3 {font-size: 10px;}
+      .offer-button {width: 100px; font-size: 14px; padding: 5px;}
+    }
+  </style>
+</head>
+
+<body>
+  <a target="_blank" href="https://webdesignecom.com/shopify-website-development-packages.html">
+  <div class="ourprice offer-row">
+    <div class="offer-coll-1">
+      <img src="offer.gif" alt="Offer">
+    </div>
+    <div class="offer-coll-2">
+      <div class="offer-text">Black Friday</div>
+      <div class="offer-text2">Flat 10% Off On All Packages</div>
+      <div class="offer-text3">Offer Valid: 28 Nov to 7 Dec 2024</div>
+      <p class="offer-button">Book Now!</p>
+    </div>
+  </div>
+</a>
+</body>
+
+</html>

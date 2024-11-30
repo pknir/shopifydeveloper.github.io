@@ -7,8 +7,8 @@
 .home-hero .ourprice {font-size: 14px; padding: 10px;}
 .hero .btn-primary {padding: 0.5rem .8rem; font-size: 14px;}
 .hero .btn-success {padding: 0.5rem .8rem; font-size: 14px;}
-.hero-content h1 {font-size: 2.1rem !important;}
-.breadcrumb {font-size: 13px;}
+.hero-content h1 {font-size: 2.1rem !important; text-align: left; margin-bottom:0 !important;}
+.breadcrumb {font-size: 13px; margin-bottom:0;}
 .publist-section {font-size: 13px; color: #444;}
 .publist-section span {color: #4e9502; font-weight: 500;}
 /*======ourprice=======*/
@@ -52,7 +52,7 @@ th {font-weight: 400;}
 .ourprice  {font-size: 13px; padding: 10px 5px;}
 .customers-badge-inner {margin-right: 50px;}
 .margbotmob {margin-bottom: 5px; font-size: 14px;}
-.packages-section {margin-top: -130px;}
+.packages-section {margin-top: -110px;}
 .clients .section-title {padding-bottom: 10px;}
 .portfoliobotmob {margin-bottom: 20px;}
 .footer-links ul li {position: relative; display: inline-flex !important; margin-right: 20px;}
