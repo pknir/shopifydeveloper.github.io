@@ -717,7 +717,7 @@ section,
 --------------------------------------------------------------*/
 .hero {
   position: relative;
-  padding-top: 160px;
+  padding-top: 100px;
   background: linear-gradient(135deg, color-mix(in srgb, var(--accent-color), transparent 95%) 50%, color-mix(in srgb, var(--accent-color), transparent 98%) 25%, transparent 50%);
 }
 
@@ -851,7 +851,7 @@ h3 .accent-text {
 .hero .customers-badge {
   position: absolute;
   bottom: 10px;
-  right: 30px;
+  right: 80px;
   background-color: var(--surface-color);
   padding: 1rem;
   border-radius: 10px;

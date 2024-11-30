@@ -1,15 +1,22 @@
-.hero-image-inner {margin-bottom: 110px;}
+.hero-section {padding-bottom: 20px;}
+.hero-image-inner {margin-bottom: 110px; max-width: 150px !important; }
+.hero-image-new {margin-bottom:0px;}
+.hero .customers-badge {max-width: 220px; margin:0 auto; padding: .5rem;}
+.hero .customers-badge-new {position: relative !important; right: 0;}
 .customers-badge-inner {margin-right: 40px;}
-.service-details ul li {list-style: circle !important; display: list-item; margin-left: 20px;}
-.portfoliobotmob {margin-bottom: 20px;}
-.portfoliobotmob img {border: 2px #4e9502 solid;}
-.home-hero .ourprice {    font-size: 14px;padding: 10px;}
+.home-hero .ourprice {font-size: 14px; padding: 10px;}
+.hero .btn-primary {padding: 0.5rem .8rem; font-size: 14px;}
+.hero .btn-success {padding: 0.5rem .8rem; font-size: 14px;}
+.hero-content h1 {font-size: 2.1rem !important;}
+.breadcrumb {font-size: 13px;}
+.publist-section {font-size: 13px; color: #444;}
+.publist-section span {color: #4e9502; font-weight: 500;}
 /*======ourprice=======*/
 .ourprice {
   background-color: #028700;
   color: #fff;
   font-size: 20px;
-  padding: 15px;
+  padding: 7px 15px;
   -webkit-animation: blink 800ms infinite;
           animation: blink 800ms infinite;
 }
@@ -26,6 +33,9 @@
     border-radius: 20px;
 }
 
+.service-details ul li {list-style: circle !important; display: list-item; margin-left: 20px;}
+.portfoliobotmob {margin-bottom: 20px;}
+.portfoliobotmob img {border: 2px #4e9502 solid;}
 .pricing-card-title {font-size: 1.7rem;}
 th {font-weight: 400;}
 .footer-cta {display: none;}
@@ -33,7 +43,11 @@ th {font-weight: 400;}
 @media (max-width: 992px) {
 .hero {padding-top: 100px;}    
 .hero-image-inner {margin-bottom: 0px; margin-top: -20px; max-width: 100px !important;}
+.header .btn-getstarted {font-size: 12px; padding: 4px 8px;}
+.hero-content h1 {font-size: 20px !important;}
 .hero-content h3 {font-size: 15px;}
+.hero .btn-primary {padding: 0.5rem 1rem;}
+.hero .btn-success {padding: 0.5rem 1rem;}
 .home-hero .ourprice {font-size: 13px; padding: 10px 5px;}
 .ourprice  {font-size: 13px; padding: 10px 5px;}
 .customers-badge-inner {margin-right: 50px;}
