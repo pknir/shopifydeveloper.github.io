@@ -40,6 +40,13 @@
 th {font-weight: 400;}
 .footer-cta {display: none;}
 
+.sidebar-fix {
+  overflow: auto;
+  position: sticky;
+  top: 0%;
+}
+
+
 @media (max-width: 992px) {
 .hero {padding-top: 100px;}    
 .hero-image-inner {margin-bottom: 0px; margin-top: -20px; max-width: 100px !important;}
