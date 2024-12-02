@@ -46,6 +46,8 @@ th {font-weight: 400;}
   top: 0%;
 }
 
+.extra-list {font-size: 12px;}
+
 
 @media (max-width: 992px) {
 .hero {padding-top: 100px;}    
