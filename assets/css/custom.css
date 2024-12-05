@@ -32,7 +32,7 @@
     font-size: 14px;
     border-radius: 20px;
 }
-
+.iframehire {width: 100%; height: 250px;}
 .service-details ul li {list-style: circle !important; display: list-item; margin-left: 20px;}
 .portfoliobotmob {margin-bottom: 20px;}
 .portfoliobotmob img {border: 2px #4e9502 solid;}
@@ -65,6 +65,7 @@ th {font-weight: 400;}
 .clients .section-title {padding-bottom: 10px;}
 .portfoliobotmob {margin-bottom: 20px;}
 .footer-links ul li {position: relative; display: inline-flex !important; margin-right: 20px;}
+.iframehire {width: 100%; height: 325px;}
 .footer-links ul li:before {
   content: "|";
   position: absolute;
