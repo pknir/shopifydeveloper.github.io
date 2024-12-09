@@ -8,26 +8,27 @@
   <style>
     body{margin: 0; padding: 0;}
     .ourprice {
-      background-color: #028700;
+      background-color: #fff;
       font-family: Arial, Helvetica, sans-serif;
-      color: #fff;
+      color: #028700;
       font-size: 20px;
       /* padding: 7px 15px; */
-      -webkit-animation: blink 800ms infinite;
-              animation: blink 800ms infinite;
+      /* -webkit-animation: blink 800ms infinite;
+              animation: blink 800ms infinite; */
     }
-    @-webkit-keyframes blink { 50% { background-color: rgb(0, 0, 0); }}
-    @keyframes blink { 50% { background-color: rgb(0, 0, 0); }}
-    .ourprice img {margin-top: -30px;}
+    /* @-webkit-keyframes blink { 50% { background-color: rgb(0, 0, 0); }}
+    @keyframes blink { 50% { background-color: rgb(0, 0, 0); }} */
+    .ourprice img {width: 180%; padding: 4px;}
     .offer-row {width: 100%; display: flex; flex-wrap: wrap;}
     .offer-coll-1 {width: 25%;}
     .offer-coll-2 {width: 75%;}
     .offer-text {font-size: 36px; text-align: center;}
     .offer-text2 {font-size: 18px; text-align: center;}
-    .offer-text3 {font-size: 12px; text-align: center;}
+    .offer-text3 {font-size: 12px; text-align: center; color: #000;}
     a {text-decoration: none;}
     .offer-button {
       background-color: #fe1865;
+      color: #fff;
     width: 120px;
     padding: 10px;
     border-radius: 30px;
@@ -37,27 +38,27 @@
     margin-top: 10px;
     }
     @media screen and (max-device-width:640px), screen and (max-width:640px) {
-      .offer-coll-1 {width: 35%;}
+       .offer-coll-1 {width: 35%;}
       .offer-coll-2 {width: 65%;}
-      .ourprice img {margin-top: -20px; margin-left: -20px; width: 120%;}
+      .ourprice img {width: 140%;}
       .offer-text {font-size: 24px;}
       .offer-text2 {font-size: 14px;}
       .offer-text3 {font-size: 10px;}
-      .offer-button {width: 100px; font-size: 14px; padding: 5px;}
+      .offer-button {width: 100px; font-size: 14px; padding: 5px; margin-bottom: 5px;}
     }
   </style>
 </head>
 
 <body>
   <a target="_blank" href="https://webdesignecom.com/shopify-website-development-packages.html">
-  <div class="ourprice offer-row">
+  <div class="ourprice offer-row" style="box-shadow: inset 0 0 0 2px red;">
     <div class="offer-coll-1">
-      <img src="offer.gif" alt="Offer">
+      <img src="img/year-end-sale.gif" alt="Offer">
     </div>
     <div class="offer-coll-2">
-      <div class="offer-text">Black Friday</div>
-      <div class="offer-text2">Flat 10% Off On All Packages</div>
-      <div class="offer-text3">Offer Valid: 28 Nov to 7 Dec 2024</div>
+      <div class="offer-text">Flat 10% Off</div>
+      <div class="offer-text2">On All Packages</div>
+      <div class="offer-text3">Offer Valid Till: 31 Dec 2024</div>
       <p class="offer-button">Book Now!</p>
     </div>
   </div>
