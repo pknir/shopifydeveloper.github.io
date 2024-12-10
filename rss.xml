@@ -8,23 +8,13 @@
     <pubDate>Mon, 09 Dec 2024 10:00:00 +0000</pubDate>
     <lastBuildDate>Mon, 09 Dec 2024 10:00:00 +0000</lastBuildDate>
     
-    <!-- Example of an Article -->
     <item>
-      <title>Article Title 1</title>
+      <title>This Web Design Agency Provides Affordable Web Design & Development Services</title>
       <link>https://pknir.github.io/shopifydeveloper.github.io/blog/web-design-agency-provides-affordable-web-design-development-services.html</link>
       <description>In today’s competitive digital world, having a strong online presence is essential for businesses of all sizes. Whether you are a small local shop or a large multinational corporation, your website acts as the face of your brand in the online space.</description>
       <pubDate>Tues, 10 Dec 2024 22:00:00 +0000</pubDate>
       <guid>https://pknir.github.io/shopifydeveloper.github.io/blog/web-design-agency-provides-affordable-web-design-development-services.html</guid>
     </item>
 
-    <!-- <item>
-      <title>Article Title 2</title>
-      <link>https://www.example.com/article2</link>
-      <description>A brief summary of Article 2.</description>
-      <pubDate>Sun, 08 Dec 2024 16:00:00 +0000</pubDate>
-      <guid>https://www.example.com/article2</guid>
-    </item> -->
-    
-    <!-- Add more articles as needed -->
   </channel>
 </rss>
