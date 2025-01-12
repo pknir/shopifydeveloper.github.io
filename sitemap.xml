@@ -1847,4 +1847,23 @@
   <priority>0.80</priority>
 </url>
 
+<url>
+  <loc>https://pknir.github.io/shopifydeveloper.github.io/blog/shopify-agency-chicago.html</loc>
+  <lastmod>2025-01-12T10:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://pknir.github.io/shopifydeveloper.github.io/blog/shopify-company-chicago.html</loc>
+  <lastmod>2025-01-12T10:10:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://pknir.github.io/shopifydeveloper.github.io/blog/shopify-service-chicago.html</loc>
+  <lastmod>2025-01-12T10:20:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
 </urlset>
