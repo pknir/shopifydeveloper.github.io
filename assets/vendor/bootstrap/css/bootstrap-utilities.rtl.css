@@ -74,7 +74,7 @@
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
-  --bs-body-font-size: 1rem;
+  --bs-body-font-size: 1.5rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
@@ -462,7 +462,7 @@
     z-index: 1020;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1366px) {
   .sticky-xl-top {
     position: -webkit-sticky;
     position: sticky;
@@ -1734,7 +1734,7 @@
 }
 
 .fs-5 {
-  font-size: 1.25rem !important;
+  font-size: 1.2rem !important;
 }
 
 .fs-6 {
@@ -4219,7 +4219,7 @@
     text-align: center !important;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1366px) {
   .float-xl-start {
     float: right !important;
   }
@@ -5341,7 +5341,7 @@
     text-align: center !important;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1366px) {
   .fs-1 {
     font-size: 2.5rem !important;
   }

@@ -20,7 +20,7 @@
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
-  --default-color: #141414; /* Default color used for the majority of the text content across the entire website */
+  --default-color: #020202; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #000000; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #4e9502; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
@@ -184,7 +184,7 @@ h6 {
 .header .btn-getstarted:focus {
   color: var(--contrast-color);
   background: var(--accent-color);
-  font-size: 14px;
+  font-size: 16px;
   padding: 8px 20px;
   margin: 0 0 0 30px;
   border-radius: 50px;
@@ -260,7 +260,7 @@ h6 {
 
   .navmenu a i,
   .navmenu a:focus i {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 0;
     margin-left: 5px;
     transition: 0.3s;
@@ -493,7 +493,7 @@ h6 {
 }
 
 .footer .footer-about p {
-  font-size: 14px;
+  font-size: 1.2rem;
   font-family: var(--heading-font);
 }
 
@@ -517,7 +517,7 @@ h6 {
 }
 
 .footer h4 {
-  font-size: 16px;
+  font-size: 1.3rem;
   font-weight: bold;
   position: relative;
   padding-bottom: 12px;
@@ -540,6 +540,7 @@ h6 {
 }
 
 .footer .footer-links ul li {
+  font-size: 1.2rem;
   padding: 10px 0;
   display: flex;
   align-items: center;
@@ -711,6 +712,7 @@ section,
 
 .section-title p {
   margin-bottom: 0;
+  font-size: 1.2rem;
 }
 
 /*--------------------------------------------------------------
@@ -743,6 +745,10 @@ section,
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 1.5rem;
+}
+
+.hero .hero-content p {
+  font-size: 1.2rem;
 }
 
 .hero .hero-content h1 h3 .accent-text {
@@ -789,7 +795,7 @@ h3 .accent-text {
 }
 
 .hero .company-badge i {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
 }
 
 .hero .btn-primary {
@@ -951,7 +957,7 @@ h3 .accent-text {
 }
 
 .hero .stat-item .stat-content h4 {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   margin-bottom: 0.25rem;
   font-weight: 600;
 }
@@ -993,7 +999,7 @@ h3 .accent-text {
 }
 
 .about .about-title {
-  font-size: 1.75rem;
+  font-size: 2.5rem;
   margin-bottom: 1rem;
   line-height: 1.2;
   font-weight: 700;
@@ -1008,6 +1014,7 @@ h3 .accent-text {
 .about .about-description {
   margin-bottom: 2rem;
   color: color-mix(in srgb, var(--default-color), transparent 20%);
+  font-size: 1.2rem;
 }
 
 .about .feature-list-wrapper {
@@ -1025,12 +1032,12 @@ h3 .accent-text {
   align-items: center;
   gap: 0.75rem;
   margin-bottom: 1rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .about .feature-list li i {
   color: var(--accent-color);
-  font-size: 1.25rem;
+  font-size: 1.2rem;
 }
 
 .about .profile .profile-image {
@@ -1041,14 +1048,14 @@ h3 .accent-text {
 }
 
 .about .profile .profile-name {
-  font-size: 1.125rem;
+  font-size: 1.2rem;
   margin: 0;
 }
 
 .about .profile .profile-position {
   color: var(--accent-color);
   margin: 0;
-  font-size: 0.875rem;
+  font-size: 1.2rem;
 }
 
 .about .contact-info {
@@ -1428,6 +1435,8 @@ h3 .accent-text {
   position: relative;
   z-index: 2;
 }
+.call-to-action h3 {color: var(--contrast-color);}
+.call-to-action p {font-size: 1.2rem;}
 
 .call-to-action .btn-cta {
   background-color: color-mix(in srgb, var(--contrast-color) 15%, transparent);
@@ -1667,6 +1676,7 @@ h3 .accent-text {
   font-style: italic;
   margin: 15px 0 0 0;
   padding: 0;
+  font-size: 1.2rem;
 }
 
 /*--------------------------------------------------------------
@@ -1704,7 +1714,7 @@ h3 .accent-text {
   color: color-mix(in srgb, var(--default-color), transparent 40%);
   padding: 0;
   margin: 0;
-  font-family: var(--heading-font);
+  font-family:1.2rem;
   font-weight: 500;
 }
 
@@ -1756,7 +1766,7 @@ h3 .accent-text {
 .services .service-card p {
   margin-bottom: 25px;
   color: color-mix(in srgb, var(--default-color), transparent 25%);
-  font-size: 15px;
+  font-size: 1.2rem;
   line-height: 1.6;
 }
 
@@ -1893,7 +1903,7 @@ h3 .accent-text {
 .pricing .pricing-card .features-list li i {
   color: var(--accent-color);
   margin-right: 0.75rem;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
 }
 
 .pricing .pricing-card .btn {
@@ -1952,7 +1962,7 @@ h3 .accent-text {
 
 .faq .faq-container .faq-item h3 {
   font-weight: 600;
-  font-size: 16px;
+  font-size: 1.5rem;
   line-height: 24px;
   margin: 0 30px 0 0;
   transition: 0.3s;
@@ -1981,6 +1991,7 @@ h3 .accent-text {
 .faq .faq-container .faq-item .faq-content p {
   margin-bottom: 0;
   overflow: hidden;
+  font-size: 1.2rem;
 }
 
 .faq .faq-container .faq-item .faq-toggle {
@@ -2123,7 +2134,7 @@ h3 .accent-text {
 
 .contact .info-item .content h4 {
   color: var(--contrast-color);
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   margin-bottom: 0.5rem;
   font-weight: 700;
 }
@@ -2169,7 +2180,7 @@ h3 .accent-text {
 
 .contact .contact-form .form-control,
 .contact .contact-form .form-select {
-  padding: 0.875rem 1.25rem;
+  padding: 0.875rem 1.2rem;
   border-color: color-mix(in srgb, var(--default-color), transparent 90%);
   border-radius: 0.5rem;
   background-color: color-mix(in srgb, var(--surface-color) 90%, white 5%);
@@ -2199,7 +2210,7 @@ h3 .accent-text {
 }
 
 .contact .contact-form .btn i {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
 }
 
 .contact .contact-form .btn:hover {
@@ -2319,7 +2330,7 @@ h3 .accent-text {
 }
 
 .service-details p {
-  font-size: 17px;
+  font-size: 1.2rem;
   line-height: 30px;
 }
 
