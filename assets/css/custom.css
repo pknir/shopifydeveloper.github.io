@@ -39,7 +39,41 @@
 .portfoliobotmob img {border: 2px #4e9502 solid;}
 .pricing-card-title {font-size: 1.7rem;}
 th {font-weight: 400;}
-.footer-cta {display: none;}
+/* fotter cta */
+.footer-cta {
+  background-color: #4e9502;
+  width: 100%;
+  border-top: 3px solid #2a5100;
+  position: fixed;
+  bottom: 0;
+  margin: 0 auto;
+  z-index: 9;
+  display: block;  
+}
+
+.footer-cta ul {
+  font-size: 14px;
+  margin: 5px 0;
+  list-style: none;  
+}
+
+.footer-cta ul li {
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+}
+
+.footer-cta ul li a {
+  color: #fff;
+}
+
+.footer-cta ul li a:hover {
+  color: #ccc;
+  text-decoration: none
+}
+
+.scroll-top {bottom: 36px !important;}
+/* fotter cta */
 
 .sidebar-fix {
   overflow: auto;
@@ -90,41 +124,6 @@ th {font-weight: 400;}
 .services .service-card p {font-size: 16px;}
 .about .about-description {font-size: 16px;}
 .about .feature-list li {font-size: 16px;}
-.scroll-top {bottom: 60px !important;}
 .footer .copyright {margin-bottom: 20px;}
-/* fotter cta */
-.footer-cta {
-  background-color: #4e9502;
-  width: 100%;
-  border-top: 3px solid #2a5100;
-  position: fixed;
-  bottom: 0;
-  margin: 0 auto;
-  z-index: 9;
-  display: block;  
-}
 
-.footer-cta ul {
-  font-size: 14px;
-  margin: 5px 0;
-  list-style: none;  
-}
-
-.footer-cta ul li {
-  width: 30%;
-  display: inline-block;
-  text-align: center;
-}
-
-.footer-cta ul li a {
-  color: #fff;
-}
-
-.footer-cta ul li a:hover {
-  color: #ccc;
-  text-decoration: none
-}
-
-
-/* fotter cta */
   }
