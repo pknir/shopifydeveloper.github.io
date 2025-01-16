@@ -85,6 +85,7 @@ th {font-weight: 400;}
 
 /*======blog+page=======*/
 .blog-page h2 {font-size: 3.5rem; font-weight: 600;}
+.blog-page p {font-size: 1.2rem;}
 .services-icon .stat-item i {font-size: 2.5rem; color: #4e9502; border: 2px #4e9502 dotted; border-radius: 50px; padding: 0px 7px;}
 /*======blog+page=======*/
 
@@ -116,8 +117,9 @@ th {font-weight: 400;}
 }
 .blog-page .blog {margin-top: -20px;}
 .blog-page h2 {font-size: 22px; font-weight: 600;}
+.blog-page p {font-size: 16px;}
 .service-details h1 {font-size: 20px; font-weight: bold; color: #4e9502;}
-.service-details h2, h3, h4 {font-size: 18px !important; font-weight: bold; }
+.service-details h2, h3, h4 {font-size: 20px !important; font-weight: bold !important; }
 .service-details p {font-size: 16px;}
 .service-details ul li {font-size: 16px;}
 .section-title p {font-size: 16px;}
