@@ -1,4 +1,4 @@
-Sitemap: https://pknir.github.io/shopifydeveloper.github.io/sitemap.xml
+Sitemap: https://pknir.github.io/shopifydeveloper.github.io/mysite.xml
 
 User-agent: *
 Disallow:
