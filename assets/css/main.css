@@ -782,6 +782,7 @@ h3 .accent-text {
   .hero .hero-content h1 {
     font-size: 2rem;
   }
+  .clients .swiper-slide img {max-width: 120% !important;}
 }
 
 .hero .company-badge {
@@ -1580,7 +1581,7 @@ h3 .accent-text {
 /*--------------------------------------------------------------
 # Clients Section
 --------------------------------------------------------------*/
-.clients .swiper-slide img {
+/* .clients .swiper-slide img {
   opacity: 0.5;
   transition: 0.3s;
   filter: grayscale(100);
@@ -1589,8 +1590,8 @@ h3 .accent-text {
 .clients .swiper-slide img:hover {
   filter: none;
   opacity: 1;
-}
-
+} */
+.clients .swiper-slide img {border: 1px #f2f2f2 solid; max-width: 180%;}
 .clients .swiper-wrapper {
   height: auto;
 }
